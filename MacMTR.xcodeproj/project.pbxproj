@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8B56E03C2E4F8EE4000748A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B56E0252E4F8EE1000748A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B56E02C2E4F8EE1000748A0;
+			remoteInfo = MacMTR;
+		};
+		8B56E0462E4F8EE4000748A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B56E0252E4F8EE1000748A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B56E02C2E4F8EE1000748A0;
+			remoteInfo = MacMTR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B56E02D2E4F8EE1000748A0 /* MacMTR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacMTR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B56E03B2E4F8EE4000748A0 /* MacMTRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacMTRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B56E0452E4F8EE4000748A0 /* MacMTRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacMTRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8B56E02F2E4F8EE1000748A0 /* MacMTR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacMTR;
+			sourceTree = "<group>";
+		};
+		8B56E03E2E4F8EE4000748A0 /* MacMTRTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacMTRTests;
+			sourceTree = "<group>";
+		};
+		8B56E0482E4F8EE4000748A0 /* MacMTRUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacMTRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B56E02A2E4F8EE1000748A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56E0382E4F8EE4000748A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56E0422E4F8EE4000748A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B56E0242E4F8EE1000748A0 = {
+			isa = PBXGroup;
+			children = (
+				8B56E02F2E4F8EE1000748A0 /* MacMTR */,
+				8B56E03E2E4F8EE4000748A0 /* MacMTRTests */,
+				8B56E0482E4F8EE4000748A0 /* MacMTRUITests */,
+				8B56E02E2E4F8EE1000748A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B56E02E2E4F8EE1000748A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B56E02D2E4F8EE1000748A0 /* MacMTR.app */,
+				8B56E03B2E4F8EE4000748A0 /* MacMTRTests.xctest */,
+				8B56E0452E4F8EE4000748A0 /* MacMTRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B56E02C2E4F8EE1000748A0 /* MacMTR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B56E04F2E4F8EE4000748A0 /* Build configuration list for PBXNativeTarget "MacMTR" */;
+			buildPhases = (
+				8B56E0292E4F8EE1000748A0 /* Sources */,
+				8B56E02A2E4F8EE1000748A0 /* Frameworks */,
+				8B56E02B2E4F8EE1000748A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8B56E02F2E4F8EE1000748A0 /* MacMTR */,
+			);
+			name = MacMTR;
+			packageProductDependencies = (
+			);
+			productName = MacMTR;
+			productReference = 8B56E02D2E4F8EE1000748A0 /* MacMTR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B56E03A2E4F8EE4000748A0 /* MacMTRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B56E0522E4F8EE4000748A0 /* Build configuration list for PBXNativeTarget "MacMTRTests" */;
+			buildPhases = (
+				8B56E0372E4F8EE4000748A0 /* Sources */,
+				8B56E0382E4F8EE4000748A0 /* Frameworks */,
+				8B56E0392E4F8EE4000748A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B56E03D2E4F8EE4000748A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8B56E03E2E4F8EE4000748A0 /* MacMTRTests */,
+			);
+			name = MacMTRTests;
+			packageProductDependencies = (
+			);
+			productName = MacMTRTests;
+			productReference = 8B56E03B2E4F8EE4000748A0 /* MacMTRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B56E0442E4F8EE4000748A0 /* MacMTRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B56E0552E4F8EE4000748A0 /* Build configuration list for PBXNativeTarget "MacMTRUITests" */;
+			buildPhases = (
+				8B56E0412E4F8EE4000748A0 /* Sources */,
+				8B56E0422E4F8EE4000748A0 /* Frameworks */,
+				8B56E0432E4F8EE4000748A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B56E0472E4F8EE4000748A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8B56E0482E4F8EE4000748A0 /* MacMTRUITests */,
+			);
+			name = MacMTRUITests;
+			packageProductDependencies = (
+			);
+			productName = MacMTRUITests;
+			productReference = 8B56E0452E4F8EE4000748A0 /* MacMTRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B56E0252E4F8EE1000748A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8B56E02C2E4F8EE1000748A0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8B56E03A2E4F8EE4000748A0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8B56E02C2E4F8EE1000748A0;
+					};
+					8B56E0442E4F8EE4000748A0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8B56E02C2E4F8EE1000748A0;
+					};
+				};
+			};
+			buildConfigurationList = 8B56E0282E4F8EE1000748A0 /* Build configuration list for PBXProject "MacMTR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B56E0242E4F8EE1000748A0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8B56E02E2E4F8EE1000748A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B56E02C2E4F8EE1000748A0 /* MacMTR */,
+				8B56E03A2E4F8EE4000748A0 /* MacMTRTests */,
+				8B56E0442E4F8EE4000748A0 /* MacMTRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B56E02B2E4F8EE1000748A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56E0392E4F8EE4000748A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56E0432E4F8EE4000748A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B56E0292E4F8EE1000748A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56E0372E4F8EE4000748A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56E0412E4F8EE4000748A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B56E03D2E4F8EE4000748A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B56E02C2E4F8EE1000748A0 /* MacMTR */;
+			targetProxy = 8B56E03C2E4F8EE4000748A0 /* PBXContainerItemProxy */;
+		};
+		8B56E0472E4F8EE4000748A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B56E02C2E4F8EE1000748A0 /* MacMTR */;
+			targetProxy = 8B56E0462E4F8EE4000748A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B56E04D2E4F8EE4000748A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 62593524UC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B56E04E2E4F8EE4000748A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 62593524UC;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8B56E0502E4F8EE4000748A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacMTR/MacMTR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62593524UC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MacMTR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B56E0512E4F8EE4000748A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacMTR/MacMTR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62593524UC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MacMTR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8B56E0532E4F8EE4000748A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62593524UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MacMTRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacMTR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacMTR";
+			};
+			name = Debug;
+		};
+		8B56E0542E4F8EE4000748A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62593524UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MacMTRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacMTR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacMTR";
+			};
+			name = Release;
+		};
+		8B56E0562E4F8EE4000748A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62593524UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MacMTRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacMTR;
+			};
+			name = Debug;
+		};
+		8B56E0572E4F8EE4000748A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62593524UC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MacMTRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacMTR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B56E0282E4F8EE1000748A0 /* Build configuration list for PBXProject "MacMTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B56E04D2E4F8EE4000748A0 /* Debug */,
+				8B56E04E2E4F8EE4000748A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B56E04F2E4F8EE4000748A0 /* Build configuration list for PBXNativeTarget "MacMTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B56E0502E4F8EE4000748A0 /* Debug */,
+				8B56E0512E4F8EE4000748A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B56E0522E4F8EE4000748A0 /* Build configuration list for PBXNativeTarget "MacMTRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B56E0532E4F8EE4000748A0 /* Debug */,
+				8B56E0542E4F8EE4000748A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B56E0552E4F8EE4000748A0 /* Build configuration list for PBXNativeTarget "MacMTRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B56E0562E4F8EE4000748A0 /* Debug */,
+				8B56E0572E4F8EE4000748A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B56E0252E4F8EE1000748A0 /* Project object */;
+}
